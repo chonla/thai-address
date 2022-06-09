@@ -1,24 +1,26 @@
 {
   "name": "@chonla/thai-address",
-  "version": "1.0.2",
+  "version": "1.0.6",
   "description": "Yet Another Thai Address Package.",
-  "main": "index.mjs",
-  "types": "index.d.mts",
-  "scripts": {},
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "npx -p typescript tsc"
+  },
   "author": "Chonlasith Jucksriporn <chonlasith@gmail.com>",
   "license": "ISC",
   "files": [
-    "index.d.mts",
-    "index.mjs",
-    "index.cjs",
+    "dist/index.d.ts",
+    "dist/index.js",
+    "index.ts",
     "LICENSE",
-    "README.md"
+    "README.md",
+    "tsconfig.json"
   ],
   "dependencies": {
     "lodash": "4.17.21"
   },
-  "exports": {
-    "import": "./index.mjs",
-    "require": "./index.cjs"
+  "devDependencies": {
+    "@types/lodash": "^4.14.182"
   }
 }
