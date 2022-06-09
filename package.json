@@ -1,0 +1,16 @@
+{
+  "name": "thai-address",
+  "version": "1.0.0",
+  "description": "Yet Another Thai Address Package.",
+  "main": "index.mjs",
+  "types": "index.d.mts",
+  "scripts": {
+  },
+  "author": "Chonlasith Jucksriporn <chonlasith@gmail.com>",
+  "license": "ISC",
+  "files": [
+    "index.d.mts",
+    "index.mjs",
+    "LICENSE"
+  ]
+}
