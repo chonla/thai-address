@@ -11,7 +11,7 @@ export interface ThaiAddrMiniRecord {
     name: string;
     code: string;
 }
-declare class ThaiAddrClass {
+declare class ThaiAddr {
     _dataVersion: string;
     constructor();
     findByZip(zipCode: string): ThaiAddrRecord[];
@@ -22,5 +22,4 @@ declare class ThaiAddrClass {
     subdistricts(code: string): ThaiAddrMiniRecord[];
     dataVersion(): string;
 }
-declare const ThaiAddr: ThaiAddrClass;
 export default ThaiAddr;
