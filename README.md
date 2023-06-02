@@ -10,7 +10,8 @@ npm install @chonla/thai-address
 
 ## Example
 
-https://github.com/chonla/thai-address-example
+* https://github.com/chonla/thai-address-example
+* Stackblitz: https://thai-address-example.stackblitz.io
 
 ## License
 
