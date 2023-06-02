@@ -17,7 +17,7 @@ declare class ThaiAddr {
     findByZip(zipCode: string): ThaiAddrRecord[];
     findBySubdistrictCode(code: string): ThaiAddrRecord | undefined;
     zips(): string[];
-    provinces(): ThaiAddrMiniRecord[];
+    provinces(zipCode?: string): ThaiAddrMiniRecord[];
     districts(code: string): ThaiAddrMiniRecord[];
     subdistricts(code: string): ThaiAddrMiniRecord[];
     dataVersion(): string;
