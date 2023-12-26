@@ -1,6 +1,6 @@
 {
   "name": "@chonla/thai-address",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "Yet Another Thai Address Package.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -21,6 +21,6 @@
     "lodash": "4.17.21"
   },
   "devDependencies": {
-    "@types/lodash": "^4.14.195"
+    "@types/lodash": "^4.14.202"
   }
 }
